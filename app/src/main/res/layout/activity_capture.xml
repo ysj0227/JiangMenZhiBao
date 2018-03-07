@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SurfaceView
+        android:id="@+id/svPreview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- 扫描窗口 -->
+
+    <com.google.zxing.view.ViewfinderView
+        android:id="@+id/cvScanView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@id/rlTop"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"></RelativeLayout>
+
+    <!--开关灯-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="right">
+
+        <Button
+            android:id="@+id/btnLight"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="15dp"
+            android:background="@mipmap/ic_light_off" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/llLogistics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/margin_40"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <Button
+            android:id="@+id/btnEnter"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:background="@drawable/bg_submit_button_selector"
+            android:text="@string/button_sacanner_input"
+            android:textColor="@color/c_white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnLook"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="@dimen/margin_10"
+            android:background="@drawable/bg_submit_button_selector"
+            android:text="@string/button_sacanner_look"
+            android:textColor="@color/c_white"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</merge>

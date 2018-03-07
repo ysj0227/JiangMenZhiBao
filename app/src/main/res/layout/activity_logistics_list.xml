@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:background="@color/c_white"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <View
+            android:id="@+id/vLineTop"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/c_gray" />
+
+        <View
+            android:id="@+id/vLineCircle"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:background="@drawable/circle_grey_wl" />
+
+        <View
+            android:id="@+id/vLineBottom"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/c_gray" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" >
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:textColor="@color/color_333333"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已商定上门维修，请等候"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2016-06-20 15:50:30"
+            android:textSize="13sp" />
+
+        <View
+            android:layout_marginTop="@dimen/margin_15"
+            android:background="@color/province_line_border"
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

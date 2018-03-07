@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="header_title">#60aa39</color>
+    <color name="c_cancel">#fa965a</color>
+
+    <color name="header_title_backups">#21AA52</color>
+    <color name="c_transparent">#00000000</color>
+    <color name="c_white">#ffffff</color>
+    <color name="c_black">#000000</color>
+    <color name="c_black_grey">#444444</color>
+    <color name="c_red">#fc0404</color>
+    <color name="c_lightred">#ed4300</color>
+    <color name="c_green">#16cf03</color>
+    <color name="c_lightgrey">#F2F2F2</color>
+    <color name="color_divider">#FFE2E2E2</color>
+    <!-- Camera color -->
+    <color name="possible_result_points">#c0ffbd21</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="viewfinder_frame">#ffff0000</color>
+    <color name="c_gray">#828180</color>
+    <color name="c_deepgray">#f6f5f5</color>
+    <color name="c_blue1">#539CCA</color>
+    <color name="c_blue">#003b90</color>
+    <color name="c_deepblue">#2671fc</color>
+    <color name="c_darkblue">#021e52</color>
+    <color name="c_lightblue">#199ade</color>
+    <color name="color_333333">#ff333333</color>
+    <color name="c_darkgray">#4c5e70</color>
+    <color name="province_line_border">#C7C7C7</color>
+    <color name="color_banner">#FF1C97D0</color>
+
+</resources>

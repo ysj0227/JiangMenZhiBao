@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@id/rlTop"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"></RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_10"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@id/btnDelete"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_submit_button_selector2"
+            android:text="@string/button_delete"
+            android:textColor="@color/c_white"
+            android:textSize="@dimen/size_16" />
+
+        <Button
+            android:id="@id/btnUpload"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="@dimen/margin_50"
+            android:background="@drawable/bg_submit_button_selector"
+            android:text="@string/button_upload"
+            android:textColor="@color/c_white"
+            android:textSize="@dimen/size_16" />
+    </LinearLayout>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tvTip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/c_white"
+        android:gravity="center"
+        android:text="暂时还没有数据哦"
+        android:textColor="@color/c_darkgray"
+        android:textSize="@dimen/size_16" />
+
+    <ListView
+        android:id="@+id/lvListData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/margin_3"
+        android:background="@color/c_white" />
+
+</LinearLayout>

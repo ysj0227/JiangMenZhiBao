@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@id/rlTop"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/margin_5"
+        android:background="@mipmap/ic_white_kuang">
+
+        <TextView
+            android:id="@+id/tv0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_8"
+            android:text="日志类型:" />
+
+        <TextView
+            android:id="@+id/tvType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_8"
+            android:layout_toRightOf="@id/tv0"
+            android:text="出库"
+            android:textColor="@color/c_black" />
+
+        <ImageView
+            android:id="@+id/ivType"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_8"
+            android:background="@mipmap/ic_green_san" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/margin_5"
+        android:background="@mipmap/ic_white_kuang">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_8"
+            android:text="上传时间:" />
+
+        <TextView
+            android:id="@+id/tvStartDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_8"
+            android:layout_toRightOf="@id/tv1"
+            android:hint="请选择开始时间"
+            android:textColor="@color/c_black" />
+
+        <ImageView
+            android:id="@+id/ivStartDate"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_8"
+            android:background="@mipmap/ic_green_san" />
+    </RelativeLayout>
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tvTip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/c_white"
+        android:gravity="center"
+        android:text="暂时还没有数据哦"
+        android:textColor="@color/c_darkgray"
+        android:textSize="@dimen/size_16" />
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/SwipeRefreshLog"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ListView
+            android:id="@+id/lvLogs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:divider="@color/header_title"
+            android:dividerHeight="1dp"/>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+</LinearLayout>

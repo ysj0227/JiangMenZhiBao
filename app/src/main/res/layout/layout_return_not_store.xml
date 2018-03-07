@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@id/rlTop"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"></RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/margin_5"
+        android:background="@mipmap/ic_white_kuang">
+
+        <TextView
+            android:id="@+id/tv0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_8"
+            android:text="退货机构:" />
+
+        <TextView
+            android:id="@+id/tvSendOrgan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_8"
+            android:layout_toRightOf="@id/tv0"
+            android:hint="请选择退货机构"
+            android:textColor="@color/c_black" />
+
+        <ImageView
+            android:id="@+id/ivSendOrgan"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_8"
+            android:background="@mipmap/ic_green_san" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/margin_5"
+        android:background="@mipmap/ic_white_kuang">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_8"
+            android:text="退货仓库:" />
+
+        <TextView
+            android:id="@+id/tvSendStore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_8"
+            android:layout_toRightOf="@id/tv1"
+            android:hint="请选择退货仓库"
+            android:textColor="@color/c_black" />
+
+        <ImageView
+            android:id="@+id/ivSendStore"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_8"
+            android:background="@mipmap/ic_green_san" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/margin_5"
+        android:background="@mipmap/ic_white_kuang">
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_8"
+            android:text="调入机构:" />
+
+        <TextView
+            android:id="@+id/tvReceiveOrgan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_8"
+            android:layout_toRightOf="@id/tv2"
+            android:hint="请选择调入机构"
+            android:textColor="@color/c_black" />
+
+        <ImageView
+            android:id="@+id/ivReceiveOrgan"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_8"
+            android:background="@mipmap/ic_green_san" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/margin_5"
+        android:background="@mipmap/ic_white_kuang">
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_8"
+            android:text="调入仓库:" />
+
+        <TextView
+            android:id="@+id/tvReceiveStore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_8"
+            android:layout_toRightOf="@id/tv3"
+            android:hint="请选择调入仓库"
+            android:textColor="@color/c_black" />
+
+        <ImageView
+            android:id="@+id/ivReceiveStore"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_8"
+            android:background="@mipmap/ic_green_san" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/margin_30"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@id/btnReset"
+            android:text="@string/button_reset"
+            android:textColor="@color/c_white"
+            android:layout_width="120dp"
+            android:textSize="@dimen/size_18"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_submit_button_selector2" />
+
+        <Button
+            android:id="@id/btnScan"
+            android:layout_marginLeft="@dimen/margin_40"
+            android:textColor="@color/c_white"
+            android:text="@string/button_scan"
+            android:layout_width="120dp"
+            android:textSize="@dimen/size_18"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_submit_button_selector" />
+    </LinearLayout>
+
+
+</LinearLayout>

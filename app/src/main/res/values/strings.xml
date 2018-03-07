@@ -1,0 +1,112 @@
+<resources>
+    <!--app-->
+    <string name="app_name">江门植保</string>
+
+    <!--button-->
+    <string name="button_reset">重置</string>
+    <string name="button_sure">确定</string>
+    <string name="button_scan">扫描</string>
+    <string name="button_cancel">取消</string>
+    <string name="button_delete">删除</string>
+    <string name="button_upload">上传</string>
+    <string name="button_alter">修改</string>
+    <string name="button_set_organ">设置下级机构</string>
+
+    <!-- App update -->
+    <string name="update_title">检查软件版本</string>
+    <string name="update_msg">软件已发现新的版本，赶快下载体验吧</string>
+    <string name="update_no">软件没有发现更新的版本</string>
+    <string name="download_title">下载软件</string>
+    <string name="button_download">下载</string>
+    <string name="button_download_data">下载数据</string>
+    <string name="button_download_update">更新</string>
+    <string name="button_ignore">忽略</string>
+    <string name="button_upload_ck_not">无单出库上传</string>
+    <string name="button_upload_th_not">无单退货上传</string>
+    <string name="button_upload_ck">出库上传</string>
+    <string name="button_upload_th">退货上传</string>
+    <string name="button_sacanner_input">手动输入</string>
+    <string name="button_sacanner_look">查看条码</string>
+    <string name="button_around_look">内外码查询</string>
+
+    <!-- Network -->
+    <string name="network_disconnect">网络已断开</string>
+    <string name="toast_networkIsExceptional">当前网络存在异常</string>
+    <string name="toast_serverNoResponse">请检查网络是否有异常</string>
+    <string name="network_wifi_low">网络连接失败</string>
+    <string name="network_connected">网络已恢复</string>
+    <string name="server_noreponse">服务器无响应</string>
+
+    <!-- msg-->
+    <string name="returndata_add_success">新增成功</string>
+    <string name="delete_add_success">删除成功</string>
+    <string name="code_not_scanned">当前没有扫描的条码</string>
+    <string name="code_list">没有选择任何条码</string>
+    <string name="code_save_success">保存成功</string>
+    <string name="code_scanned">此码已扫描</string>
+    <string name="code_checked_list">没有选择任何条码</string>
+    <string name="code_input">请输入条码</string>
+    <string name="dialog_code_out">请输入30位条码</string>
+    <string name="dialog_code_return">请输入30位条码</string>
+    <string name="dialog_code_zs">请输入物流码</string>
+    <string name="dialog_code_query">请输入编码</string>
+    <string name="dialog_title">输入条码</string>
+    <string name="dialog_title_wl">输入物流码</string>
+    <string name="dialog_title_inout">输入编码</string>
+
+    <!--toast-->
+    <string name="toast_old_password">请输入原始密码</string>
+    <string name="toast_new_password">请输入新密码</string>
+    <string name="toast_new_password_length">密码长度为6-25字符</string>
+    <string name="toast_sure_password">请输入确认密码</string>
+    <string name="toast_password_black">密码不能有空格</string>
+    <string name="toast_notsame_password">新密码与确认密码不一致，请重新输入</string>
+    <string name="toast_select_area">请选择区域</string>
+    <string name="toast_input_details_adds">请输入详细地址</string>
+    <string name="toast_input_organ_name">请输入客商名称</string>
+    <string name="toast_input_out_number">请输入外部编号</string>
+    <string name="toast_input_details_adds_length">详细地址长度为3-128个字符</string>
+    <string name="toast_input_organ_name_length">客商名称长度为1-25个字符</string>
+    <string name="toast_input_organ_name_black">客商名称不能包含空格</string>
+    <string name="toast_input_out_number_length">外部编号长度为3-20个字符</string>
+    <string name="toast_input_out_number_black">外部编号不能包含空格</string>
+    <string name="toast_input_phone">请输入联系电话</string>
+    <string name="toast_input_phone_success">请输入正确电话或手机格式(021-12345678 ; 13812345678)</string>
+    <string name="toast_input_mobile_success">请输入正确电话或手机格式(021-12345678 ; 13812345678)</string>
+    <string name="toast_press_again_quit">再按一次退出程序</string>
+    <string name="toast_clear_success">清理成功</string>
+    <!--code rules-->
+    <string name="toast_code_wl_error">物流码不正确</string>
+    <string name="toast_code_bm_error">编码不正确</string>
+    <string name="toast_code_16_length">输入或扫描物流码</string>
+    <string name="toast_code_no_product">没有此产品码</string>
+    <string name="toast_code_error">输入或扫描的码不正确</string>
+    <string name="toast_code_30_length">输入或扫描30位码</string>
+    <string name="toast_not_message">没有追踪信息</string>
+
+    <!--title-->
+    <string name="title_out">出库上传</string>
+    <string name="title_return">退货上传</string>
+    <string name="title_not_out">无单出库上传</string>
+    <string name="title_not_return">无单退货上传</string>
+
+    <string name="title_scanned_out">出库扫描</string>
+    <string name="title_scanned_return">退货扫描</string>
+    <string name="title_scanned_not_out">无单出库扫描</string>
+    <string name="title_scanned_not_return">无单退货扫描</string>
+    <string name="title_scanned_zs">物流追踪</string>
+
+    <string name="title_add_customer">新增市经销商</string>
+    <string name="title_edit_customer_msg">市经销商编辑</string>
+    <string name="title_addcity_customer">新增县经销商</string>
+    <string name="title_editcity_customer_msg">县经销商编辑</string>
+    <string name="title_addcounty_customer">新增零售商</string>
+    <string name="title_editcounty_customer_msg">零售商编辑</string>
+    <string name="title_progress_add">新增中</string>
+    <string name="title_progress_edit">修改中</string>
+
+    <!-- TextView text -->
+    <string name="textview_scanprompt">将取景器对准要扫描的条形码或二维码</string>
+    <string name="msg_camera_framework_bug">抱歉，Android相机可能被占用，您可能需要重启设备。</string>
+
+</resources>

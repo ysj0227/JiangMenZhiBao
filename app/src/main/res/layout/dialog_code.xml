@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/bg_shap"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_shap_green_topradius" >
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="输入条码"
+                android:textColor="@color/c_white"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!--去除表情Emoji-->
+        <com.winsafe.jiangmenzhibao.utils.EmojiEditText
+            android:id="@+id/etCode"
+            android:paddingLeft="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:inputType="textVisiblePassword"
+            android:background="@drawable/edittext_bg"
+            android:hint="请输入16位防伪物流码"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/tv_cancel"
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_submit_button_selector2"
+                android:gravity="center"
+                android:text="返 回"
+                android:textColor="@color/c_white"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/tv_sure"
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_submit_button_selector"
+                android:gravity="center"
+                android:text="确 定"
+                android:textColor="@color/c_white"
+                android:visibility="visible" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

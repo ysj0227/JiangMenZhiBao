@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@id/rlTop"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"></RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlArea"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/margin_5"
+        android:background="@mipmap/ic_white_kuang">
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_8"
+            android:text="客商区域:" />
+
+        <TextView
+            android:id="@+id/tvArea"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_8"
+            android:layout_toRightOf="@id/tv2"
+            android:gravity="center_vertical"
+            android:hint="请选择客商区域"
+            android:textColor="@color/c_black" />
+
+        <ImageView
+            android:id="@+id/ivArea"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_8"
+            android:background="@mipmap/ic_green_san" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/margin_5"
+        android:background="@mipmap/ic_white_kuang">
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_8"
+            android:text="详细地址:" />
+
+        <EditText
+            android:id="@+id/tvDetailsAdds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_8"
+            android:layout_toRightOf="@id/tv3"
+            android:background="@color/transparent"
+            android:hint="请输入详细地址"
+            android:maxLength="128"
+            android:textColor="@color/c_black"
+            android:textSize="@dimen/size_14" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/margin_5"
+        android:background="@mipmap/ic_white_kuang">
+
+        <TextView
+            android:id="@+id/tv0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_8"
+            android:text="客商名称:" />
+
+        <EditText
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_8"
+            android:layout_toRightOf="@id/tv0"
+            android:background="@color/transparent"
+            android:hint="请输入客商名称"
+            android:inputType="text"
+            android:maxLength="25"
+            android:textColor="@color/c_black"
+            android:textSize="@dimen/size_14" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/margin_5"
+        android:background="@mipmap/ic_white_kuang">
+
+        <TextView
+            android:id="@+id/tvs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_8"
+            android:text="外部编号:" />
+
+        <EditText
+            android:id="@+id/tvNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_8"
+            android:layout_toRightOf="@id/tvs"
+            android:background="@color/transparent"
+            android:hint="请输入外部编号"
+            android:maxLength="20"
+            android:textColor="@color/c_black"
+            android:textSize="@dimen/size_14" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/margin_5"
+        android:background="@mipmap/ic_white_kuang">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_8"
+            android:text="联系电话:" />
+
+        <EditText
+            android:id="@+id/tvPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_8"
+            android:layout_toRightOf="@id/tv1"
+            android:background="@color/transparent"
+            android:hint="请输入联系电话"
+            android:inputType="phone"
+            android:maxLength="15"
+            android:textColor="@color/c_black"
+            android:textSize="@dimen/size_14" />
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_30"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@id/btnReset"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_submit_button_selector2"
+            android:text="@string/button_reset"
+            android:textColor="@color/c_white"
+            android:textSize="@dimen/size_18" />
+
+        <Button
+            android:id="@+id/btnSure"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="@dimen/margin_40"
+            android:background="@drawable/bg_submit_button_selector"
+            android:text="@string/button_sure"
+            android:textColor="@color/c_white"
+            android:textSize="@dimen/size_18" />
+    </LinearLayout>
+
+
+</LinearLayout>
